@@ -57,6 +57,7 @@ This project was created to practice file I/O, hashing, structs, and menu-driven
 - Copies all entries **except** the target one into `temp.bin`  
 - Replaces original file  
 
----
+Demonstration Video:
+https://youtu.be/Sg4N2iemgbI
 
 
