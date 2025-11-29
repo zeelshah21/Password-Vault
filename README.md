@@ -6,7 +6,7 @@ This project was created to practice file I/O, hashing, structs, and menu-driven
 
 ---
 
-## 🔐 Features
+## Features
 - Add a new account (website + username + password)  
 - Securely store passwords using hashing  
 - View saved accounts in a structured table  
@@ -18,7 +18,7 @@ This project was created to practice file I/O, hashing, structs, and menu-driven
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 - C programming  
 - Struct-based data storage  
 - File I/O (`fopen`, `fwrite`, `fread`)  
@@ -27,4 +27,36 @@ This project was created to practice file I/O, hashing, structs, and menu-driven
 
 ---
 
-## 📁 Project Structure
+##  Step-by-Step Explanation
+
+### **1. Start Program**
+- Loads existing accounts from `data.bin`  
+- Displays interactive menu  
+
+### **2. Add Account**
+- Enter website, username, password  
+- Password is hashed  
+- Saved to binary file using `fwrite`  
+
+### **3. View Accounts**
+- Reads entries from `data.bin`  
+- Displays each account in clean table format  
+- Shows website, username, and hashed password  
+
+### **4. Search Accounts**
+- User enters website name  
+- Performs linear search  
+- Displays the matching entry if found  
+
+### **5. Update Password**
+- Search for specific account  
+- User enters new password  
+- Hash recalculated and saved  
+
+### **6. Delete Account**
+- Copies all entries **except** the target one into `temp.bin`  
+- Replaces original file  
+
+---
+
+
